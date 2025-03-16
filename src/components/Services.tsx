@@ -1,5 +1,4 @@
-
-import { Cog, Tool, Truck, Cpu, ShieldCheck, HeartHandshake } from "lucide-react";
+import { Cog, Wrench, Truck, Cpu, ShieldCheck, HeartHandshake } from "lucide-react";
 
 const services = [
   {
@@ -12,7 +11,7 @@ const services = [
     id: 2,
     title: "Maintenance & Repairs",
     description: "Comprehensive service packages ensuring your equipment operates at peak efficiency.",
-    icon: <Tool className="h-10 w-10" />,
+    icon: <Wrench className="h-10 w-10" />,
   },
   {
     id: 3,
