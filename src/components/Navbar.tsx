@@ -30,7 +30,7 @@ const Navbar = () => {
                 />
               </svg>
               <span className="ml-2 text-xl font-display font-bold text-machinery-primary">
-                GreenMach
+                Ecostel
               </span>
             </a>
           </div>
@@ -47,13 +47,13 @@ const Navbar = () => {
               href="#services"
               className="text-machinery-dark hover:text-machinery-primary font-medium transition-colors"
             >
-              Service
+              Services
             </a>
             <a
               href="#about"
               className="text-machinery-dark hover:text-machinery-primary font-medium transition-colors"
             >
-              About
+              About Us
             </a>
             <a
               href="#contact"
@@ -67,7 +67,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center text-machinery-primary">
               <Phone size={18} />
-              <span className="ml-2 font-medium">+1 (555) 123-4567</span>
+              <span className="ml-2 font-medium">+1 (800) 967-8357</span>
             </div>
             <Button className="bg-machinery-primary hover:bg-machinery-highlight text-white">
               Get a Quote
@@ -108,7 +108,7 @@ const Navbar = () => {
                 className="block text-machinery-dark hover:text-machinery-primary font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+                About Us
               </a>
               <a
                 href="#contact"
@@ -120,7 +120,7 @@ const Navbar = () => {
               <div className="pt-2 border-t border-gray-200">
                 <div className="flex items-center text-machinery-primary mb-4">
                   <Phone size={18} />
-                  <span className="ml-2 font-medium">+1 (555) 123-4567</span>
+                  <span className="ml-2 font-medium">+1 (800) 967-8357</span>
                 </div>
                 <Button className="w-full bg-machinery-primary hover:bg-machinery-highlight text-white">
                   Get a Quote

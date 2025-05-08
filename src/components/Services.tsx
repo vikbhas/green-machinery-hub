@@ -1,40 +1,41 @@
+
 import { Cog, Wrench, Truck, Cpu, ShieldCheck, HeartHandshake } from "lucide-react";
 
 const services = [
   {
     id: 1,
-    title: "Custom Manufacturing",
-    description: "Tailored machinery solutions designed specifically for your unique production requirements.",
+    title: "Fuel Testing & Analysis",
+    description: "Comprehensive testing to identify contamination issues and develop effective treatment plans.",
     icon: <Cog className="h-10 w-10" />,
   },
   {
     id: 2,
-    title: "Maintenance & Repairs",
-    description: "Comprehensive service packages ensuring your equipment operates at peak efficiency.",
+    title: "Installation & Maintenance",
+    description: "Professional installation and ongoing maintenance services to keep your systems running efficiently.",
     icon: <Wrench className="h-10 w-10" />,
   },
   {
     id: 3,
-    title: "Logistics & Installation",
-    description: "End-to-end handling of machinery transport, setup, and installation at your facility.",
+    title: "Emergency Response",
+    description: "24/7 emergency response for critical fuel and water treatment issues to minimize downtime.",
     icon: <Truck className="h-10 w-10" />,
   },
   {
     id: 4,
-    title: "Automation Solutions",
-    description: "Smart factory technologies that streamline operations and increase productivity.",
+    title: "System Automation",
+    description: "Smart monitoring and control solutions that provide real-time system performance data.",
     icon: <Cpu className="h-10 w-10" />,
   },
   {
     id: 5,
-    title: "Quality Assurance",
-    description: "Rigorous testing and certification to ensure all machinery meets the highest standards.",
+    title: "Compliance Services",
+    description: "Expert guidance to ensure your fuel storage and water systems meet all regulatory requirements.",
     icon: <ShieldCheck className="h-10 w-10" />,
   },
   {
     id: 6,
     title: "Consultation Services",
-    description: "Expert advice on machinery integration, workflow optimization, and sustainability practices.",
+    description: "Personalized recommendations for fuel and water management based on your specific needs.",
     icon: <HeartHandshake className="h-10 w-10" />,
   },
 ];
@@ -44,9 +45,9 @@ const Services = () => {
     <section id="services" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Comprehensive Services</h2>
+          <h2 className="section-title">Our Services</h2>
           <p className="text-lg text-machinery-dark/80 max-w-3xl mx-auto">
-            Beyond manufacturing, we provide a complete suite of services to ensure your operations run smoothly and efficiently.
+            We provide a complete range of services to ensure your fuel and water systems operate at peak efficiency while meeting all regulatory requirements.
           </p>
         </div>
 
@@ -69,10 +70,10 @@ const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-2xl font-bold text-machinery-primary mb-4">
-                Need Custom Services?
+                Need Custom Solutions?
               </h3>
               <p className="text-machinery-dark/80 mb-6">
-                We understand that each manufacturing operation has unique needs. Contact our team to discuss tailored service packages that address your specific challenges.
+                We understand that each facility has unique needs. Contact our team to discuss customized solutions that address your specific challenges.
               </p>
               <div className="inline-flex items-center text-machinery-primary hover:text-machinery-highlight cursor-pointer font-semibold">
                 Contact our service team
@@ -106,7 +107,7 @@ const Services = () => {
                   <svg className="h-5 w-5 text-machinery-highlight mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Extended Warranties
+                  Comprehensive Documentation
                 </li>
               </ul>
             </div>

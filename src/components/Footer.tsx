@@ -27,11 +27,11 @@ const Footer = () => {
                 />
               </svg>
               <span className="ml-2 text-xl font-display font-bold">
-                GreenMach
+                Ecostel
               </span>
             </div>
             <p className="mb-6 opacity-80">
-              Advanced machinery solutions with a commitment to environmental sustainability.
+              Innovative fuel polishing and water treatment solutions for critical applications.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-machinery-light transition-colors">
@@ -53,13 +53,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-6">Products</h4>
+            <h4 className="text-lg font-semibold mb-6">Solutions</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">CNC Machines</a></li>
-              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Robotic Systems</a></li>
-              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Laser Cutters</a></li>
-              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">3D Printers</a></li>
-              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Assembly Equipment</a></li>
+              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Fuel Polishing</a></li>
+              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Water Treatment</a></li>
+              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Tank Cleaning</a></li>
+              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Fuel Testing</a></li>
+              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Remote Monitoring</a></li>
             </ul>
           </div>
 
@@ -67,7 +67,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-3">
               <li><a href="#about" className="opacity-80 hover:opacity-100 transition-opacity">About Us</a></li>
-              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Sustainability</a></li>
+              <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Case Studies</a></li>
               <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">Careers</a></li>
               <li><a href="#" className="opacity-80 hover:opacity-100 transition-opacity">News & Events</a></li>
               <li><a href="#contact" className="opacity-80 hover:opacity-100 transition-opacity">Contact</a></li>
@@ -94,7 +94,7 @@ const Footer = () => {
 
         <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="opacity-70 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} GreenMach. All rights reserved.
+            © {new Date().getFullYear()} Ecostel. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm opacity-70">
             <a href="#" className="hover:opacity-100 transition-opacity">Privacy Policy</a>

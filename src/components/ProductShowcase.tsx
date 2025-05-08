@@ -5,27 +5,27 @@ import { ChevronRight, Star, Award, Leaf } from "lucide-react";
 const products = [
   {
     id: 1,
-    name: "CNC Precision Mill XG-5000",
-    description: "Advanced 5-axis milling machine with energy-efficient motors and precision controls.",
-    image: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=800&q=80",
-    features: ["Energy-efficient", "Precision controls", "Low maintenance"],
-    eco: "40% less power consumption"
+    name: "Fuel Polishing Systems",
+    description: "Advanced filtration technology that removes water, particulates, and microbial contamination from stored fuel.",
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80",
+    features: ["Microbial removal", "Water separation", "Contaminant filtration"],
+    eco: "Extends fuel life by up to 5 years"
   },
   {
     id: 2,
-    name: "Industrial Robotic Arm TR-7",
-    description: "Versatile robotic system for assembly and manufacturing with smart power management.",
-    image: "https://images.unsplash.com/photo-1563203369-26f2e4a5ccb7?auto=format&fit=crop&w=800&q=80",
-    features: ["Smart power management", "Versatile applications", "Intuitive controls"],
-    eco: "Reduced material waste by 30%"
+    name: "Water Treatment Solutions",
+    description: "Customized water treatment systems for commercial and industrial applications.",
+    image: "https://images.unsplash.com/photo-1611273138304-dce21dcc525d?auto=format&fit=crop&w=800&q=80",
+    features: ["Chemical-free options", "Modular design", "Energy efficient"],
+    eco: "Reduces water waste by up to 40%"
   },
   {
     id: 3,
-    name: "Eco-Laser Cutter EL-2200",
-    description: "High-precision laser cutting system with minimal energy loss and maximal material efficiency.",
-    image: "https://images.unsplash.com/photo-1565515912863-4a8a28904c70?auto=format&fit=crop&w=800&q=80",
-    features: ["High-precision", "Material efficiency", "Clean operation"],
-    eco: "95% material utilization rate"
+    name: "Fuel Tank Cleaning",
+    description: "Professional tank cleaning services that remove sludge, water, and contaminants without tank entry.",
+    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80",
+    features: ["No tank entry required", "Minimal downtime", "Complete documentation"],
+    eco: "Prevents fuel-related equipment failures"
   }
 ];
 
@@ -34,9 +34,9 @@ const ProductShowcase = () => {
     <section id="products" className="bg-machinery-light py-16 md:py-24">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Our Premium Machinery</h2>
+          <h2 className="section-title">Our Solutions</h2>
           <p className="text-lg text-machinery-dark/80 max-w-3xl mx-auto">
-            Discover our range of advanced, energy-efficient machinery designed to deliver exceptional performance while minimizing environmental impact.
+            Discover our range of innovative fuel and water treatment solutions designed to protect your assets while minimizing environmental impact.
           </p>
         </div>
 
@@ -77,7 +77,7 @@ const ProductShowcase = () => {
 
         <div className="mt-16 text-center">
           <Button className="bg-machinery-primary hover:bg-machinery-highlight text-white text-lg px-8 py-6">
-            View All Products <ChevronRight className="ml-2 h-5 w-5" />
+            View All Solutions <ChevronRight className="ml-2 h-5 w-5" />
           </Button>
         </div>
       </div>

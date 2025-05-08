@@ -3,35 +3,35 @@ import { Award, Users, TrendingUp, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const stats = [
-  { id: 1, value: "25+", label: "Years Experience" },
-  { id: 2, value: "300+", label: "Team Members" },
-  { id: 3, value: "1000+", label: "Machines Manufactured" },
-  { id: 4, value: "50+", label: "Countries Served" },
+  { id: 1, value: "20+", label: "Years Experience" },
+  { id: 2, value: "100+", label: "Team Members" },
+  { id: 3, value: "5000+", label: "Projects Completed" },
+  { id: 4, value: "30+", label: "States Served" },
 ];
 
 const values = [
   {
     id: 1,
     title: "Quality Excellence",
-    description: "Uncompromising standards in every aspect of our manufacturing process.",
+    description: "Delivering superior solutions using the best materials and technology available.",
     icon: <Award className="h-8 w-8" />,
   },
   {
     id: 2,
     title: "Client Partnership",
-    description: "Building lasting relationships through collaboration and trust.",
+    description: "Building lasting relationships through transparency, reliability, and exceptional service.",
     icon: <Users className="h-8 w-8" />,
   },
   {
     id: 3,
     title: "Continuous Innovation",
-    description: "Constantly improving our machinery with the latest technological advancements.",
+    description: "Constantly improving our solutions with the latest technological advancements.",
     icon: <TrendingUp className="h-8 w-8" />,
   },
   {
     id: 4,
-    title: "Environmental Commitment",
-    description: "Developing sustainable solutions that minimize ecological impact.",
+    title: "Environmental Responsibility",
+    description: "Committed to sustainable practices that protect resources and reduce environmental impact.",
     icon: <Leaf className="h-8 w-8" />,
   },
 ];
@@ -42,12 +42,12 @@ const About = () => {
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">About GreenMach</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">About Ecostel</h2>
             <p className="text-lg mb-6 opacity-90">
-              Founded in 1998, GreenMach has been at the forefront of manufacturing environmentally responsible industrial machinery. Our mission is to transform the manufacturing industry by providing high-performance equipment that reduces ecological footprint without compromising on quality or efficiency.
+              Founded in 2004, Ecostel has been at the forefront of developing innovative fuel polishing and water treatment solutions. Our mission is to protect critical equipment, extend fuel life, and reduce environmental impact through cutting-edge technology and exceptional service.
             </p>
             <p className="text-lg mb-8 opacity-90">
-              What sets us apart is our commitment to sustainability in every aspect of our business - from the materials we use, to the energy efficiency of our machines, to our zero-waste facilities. We believe that industrial progress and environmental responsibility can and must go hand in hand.
+              What sets us apart is our commitment to custom solutions tailored to each client's specific needs. Whether you manage a hospital's emergency generators, a data center's backup power systems, or a fleet of marine vessels, our team has the expertise to deliver results that exceed expectations.
             </p>
             
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-8">
@@ -67,12 +67,12 @@ const About = () => {
           <div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1200&q=80" 
-                alt="Factory floor with advanced machinery" 
+                src="https://images.unsplash.com/photo-1581094795830-a9373d2c7d1f?auto=format&fit=crop&w=1200&q=80" 
+                alt="Ecostel technician working on fuel system" 
                 className="rounded-lg shadow-2xl"
               />
               <div className="absolute -bottom-6 -left-6 bg-machinery-light text-machinery-primary p-4 rounded-lg shadow-lg max-w-xs">
-                <p className="font-bold">Our state-of-the-art manufacturing facility in Portland, OR</p>
+                <p className="font-bold">Our state-of-the-art testing facility in Tampa, FL</p>
               </div>
             </div>
           </div>

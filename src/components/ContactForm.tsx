@@ -47,15 +47,15 @@ const ContactForm = () => {
     <section id="contact" className="bg-machinery-light py-16 md:py-24">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Get In Touch</h2>
+          <h2 className="section-title">Contact Us</h2>
           <p className="text-lg text-machinery-dark/80 max-w-3xl mx-auto">
-            Have questions about our products or services? Need a custom quote? Our team is ready to assist you.
+            Have questions about our solutions? Need a site assessment? Our team is ready to help you solve your fuel and water challenges.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="bg-white rounded-lg shadow-lg p-8">
-            <h3 className="text-2xl font-bold text-machinery-primary mb-6">Send Us a Message</h3>
+            <h3 className="text-2xl font-bold text-machinery-primary mb-6">Get in Touch</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
@@ -144,8 +144,8 @@ const ContactForm = () => {
                   <Mail className="h-6 w-6 mr-4 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Email Us</h4>
-                    <p>info@greenmach.com</p>
-                    <p>sales@greenmach.com</p>
+                    <p>info@ecostel.co</p>
+                    <p>support@ecostel.co</p>
                   </div>
                 </div>
                 
@@ -153,8 +153,8 @@ const ContactForm = () => {
                   <Phone className="h-6 w-6 mr-4 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Call Us</h4>
-                    <p>Main: +1 (555) 123-4567</p>
-                    <p>Support: +1 (555) 987-6543</p>
+                    <p>Main: +1 (800) 967-8357</p>
+                    <p>Support: +1 (813) 555-1234</p>
                   </div>
                 </div>
                 
@@ -162,8 +162,8 @@ const ContactForm = () => {
                   <MapPin className="h-6 w-6 mr-4 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Visit Us</h4>
-                    <p>123 Green Manufacturing Blvd</p>
-                    <p>Portland, OR 97204</p>
+                    <p>4908 Tampa West Blvd</p>
+                    <p>Tampa, FL 33634</p>
                   </div>
                 </div>
                 
@@ -171,8 +171,8 @@ const ContactForm = () => {
                   <Clock className="h-6 w-6 mr-4 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Business Hours</h4>
-                    <p>Monday-Friday: 8am - 6pm</p>
-                    <p>Saturday: 9am - 1pm</p>
+                    <p>Monday-Friday: 8am - 5pm</p>
+                    <p>24/7 Emergency Service Available</p>
                   </div>
                 </div>
               </div>
