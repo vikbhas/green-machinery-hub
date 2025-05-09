@@ -49,7 +49,7 @@ const ProductShowcase = () => {
                   alt={product.name} 
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute top-4 right-4 bg-machinery-highlight text-white px-3 py-1 rounded-full text-sm font-medium flex items-center">
+                <div className="absolute top-4 right-4 bg-machinery-primary text-white px-3 py-1 rounded-full text-sm font-medium flex items-center">
                   <Leaf className="mr-1 h-4 w-4" /> Eco-Friendly
                 </div>
               </div>
@@ -58,12 +58,12 @@ const ProductShowcase = () => {
                 <p className="text-machinery-dark/80 mb-4">{product.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {product.features.map((feature, index) => (
-                    <span key={index} className="bg-machinery-secondary/20 text-machinery-primary px-3 py-1 rounded-full text-sm">
+                    <span key={index} className="bg-machinery-primary/20 text-machinery-primary px-3 py-1 rounded-full text-sm">
                       {feature}
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center text-machinery-highlight mb-4">
+                <div className="flex items-center text-machinery-primary mb-4">
                   <Leaf className="h-5 w-5 mr-2" />
                   <span className="font-medium">{product.eco}</span>
                 </div>
@@ -76,7 +76,7 @@ const ProductShowcase = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <Button className="bg-machinery-primary hover:bg-machinery-highlight text-white text-lg px-8 py-6">
+          <Button className="bg-machinery-primary hover:bg-machinery-primary/80 text-white text-lg px-8 py-6">
             View All Solutions <ChevronRight className="ml-2 h-5 w-5" />
           </Button>
         </div>

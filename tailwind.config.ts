@@ -65,7 +65,7 @@ export default {
 				},
 				// Custom colors for our machinery site
 				machinery: {
-					"primary": "#2F4F4F",    // Deep forest green
+					"primary": "#6FB842",    // Changed to requested green color
 					"secondary": "#8FBC8F",  // Soft sage green
 					"accent": "#C0C0C0",     // Metallic silver
 					"dark": "#333333",       // Dark charcoal
