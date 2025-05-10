@@ -112,7 +112,9 @@ export default {
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
-				display: ['Poppins', 'sans-serif']
+				display: ['Poppins', 'sans-serif'],
+				roboto: ['Roboto', 'sans-serif'],
+				robotoCondensed: ['"Roboto Condensed"', 'sans-serif'],
 			}
 		}
 	},

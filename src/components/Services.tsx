@@ -4,40 +4,40 @@ import { Cog, Wrench, Truck, Cpu, ShieldCheck, HeartHandshake } from "lucide-rea
 const services = [
   {
     id: 1,
-    title: "Fuel Testing & Analysis",
-    description: "Comprehensive testing to identify contamination issues and develop effective treatment plans.",
+    title: "CNC Machining",
+    description: "Our CNC machining services leverage a reliable global network of manufacturers to consistently deliver precision-engineered parts that perfectly match your specifications.",
     icon: <Cog className="h-10 w-10" />,
   },
   {
     id: 2,
-    title: "Installation & Maintenance",
-    description: "Professional installation and ongoing maintenance services to keep your systems running efficiently.",
+    title: "Sheet Metal and Tube Fabrication",
+    description: "Our sheet metal and tube fabrication services offer precision-crafted, custom components, backed by advanced techniques",
     icon: <Wrench className="h-10 w-10" />,
   },
   {
     id: 3,
-    title: "Emergency Response",
-    description: "24/7 emergency response for critical fuel and water treatment issues to minimize downtime.",
-    icon: <Truck className="h-10 w-10" />,
-  },
-  {
-    id: 4,
-    title: "System Automation",
-    description: "Smart monitoring and control solutions that provide real-time system performance data.",
-    icon: <Cpu className="h-10 w-10" />,
-  },
-  {
-    id: 5,
-    title: "Compliance Services",
-    description: "Expert guidance to ensure your fuel storage and water systems meet all regulatory requirements.",
-    icon: <ShieldCheck className="h-10 w-10" />,
-  },
-  {
-    id: 6,
-    title: "Consultation Services",
-    description: "Personalized recommendations for fuel and water management based on your specific needs.",
+    title: "Value Added Solutions",
+    description: "Our value-added manufacturing solutions provide high-quality, precision components through services like assembly, welding, rapid prototyping, and powder coating—supported by a reliable global network.",
     icon: <HeartHandshake className="h-10 w-10" />,
   },
+  // {
+  //   id: 4,
+  //   title: "System Automation",
+  //   description: "Smart monitoring and control solutions that provide real-time system performance data.",
+  //   icon: <Cpu className="h-10 w-10" />,
+  // },
+  // {
+  //   id: 5,
+  //   title: "Compliance Services",
+  //   description: "Expert guidance to ensure your fuel storage and water systems meet all regulatory requirements.",
+  //   icon: <ShieldCheck className="h-10 w-10" />,
+  // },
+  // {
+  //   id: 6,
+  //   title: "Consultation Services",
+  //   description: "Personalized recommendations for fuel and water management based on your specific needs.",
+  //   icon: <HeartHandshake className="h-10 w-10" />,
+  // },
 ];
 
 const Services = () => {
@@ -46,8 +46,8 @@ const Services = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="section-title">Our Services</h2>
-          <p className="text-lg text-machinery-dark/80 max-w-3xl mx-auto">
-            We provide a complete range of services to ensure your fuel and water systems operate at peak efficiency while meeting all regulatory requirements.
+          <p className="text-lg text-machinery-dark/80 max-w-6xl mx-auto">
+          We guarantee the quality and on-time delivery of your manufactured parts—from prototyping to production. Our trusted partners are certified to AS 9100D and ISO 13485:2016 standards, with ITAR and EAR compliance available upon request.
           </p>
         </div>
 

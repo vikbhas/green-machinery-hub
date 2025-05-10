@@ -1,7 +1,7 @@
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ProductShowcase from "@/components/ProductShowcase";
+// import ProductShowcase from "@/components/ProductShowcase";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import ContactForm from "@/components/ContactForm";
@@ -12,7 +12,7 @@ const Index = () => {
     <div className="min-h-screen bg-machinery-light">
       <Navbar />
       <Hero />
-      <ProductShowcase />
+      {/* <ProductShowcase /> */}
       <Services />
       <About />
       <ContactForm />
