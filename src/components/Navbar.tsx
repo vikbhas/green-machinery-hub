@@ -16,7 +16,7 @@ const Navbar = () => {
               <img
                 width="200"
                 height="200"
-                src="public/assets/Logo.jpg"
+                src="assets/Logo.jpg"
                 className="text-machinery-primary"
               >
               </img>

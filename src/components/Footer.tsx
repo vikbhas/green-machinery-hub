@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center mb-6">
-              <img src="public/assets/logofooter.png" className="h-14"></img>
+              <img src="assets/logofooter.png" className="h-14"></img>
               <span className="ml-2 text-3xl font-display font-bold">
                 Ecostel
               </span>

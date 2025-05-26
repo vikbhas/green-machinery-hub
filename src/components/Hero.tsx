@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="relative h-screen bg-gradient-to-br from-machinery-primary to-machinery-secondary overflow-hidden">
       <div
   className="absolute inset-0 bg-cover bg-center opacity-15 mix-blend-overlay"
-  style={{ backgroundImage: `url('public/assets/simon-kadula-8gr6bObQLOI-unsplash.jpg')` }}
+  style={{ backgroundImage: `url('assets/simon-kadula-8gr6bObQLOI-unsplash.jpg')` }}
 ></div>
       
       <div className="px-12 sm:px-6 lg:px-12 relative z-10 h-full items-center">
@@ -34,12 +34,12 @@ const Hero = () => {
           <div className="hidden md:flex justify-center relative animate-fade-in mt-[5rem]">
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               {/* <img 
-                src="public/assets/minku-kang-aCniNTiIFd8-unsplash.jpg" 
+                src="assets/minku-kang-aCniNTiIFd8-unsplash.jpg" 
                 alt="Fuel filtration equipment" 
                 className="rounded-lg object-cover opacity-90"
               /> */}
               <video 
-                  src="public/assets/19791092-uhd_3840_2160_60fps.mp4" 
+                  src="assets/19791092-uhd_3840_2160_60fps.mp4" 
                   className="rounded-lg object-cover opacity-80" 
                   autoPlay 
                   loop 

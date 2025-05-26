@@ -65,7 +65,7 @@ const About = () => {
           </div>
           <div className="items-end pl-[10rem] w-[500rem]">
             <img
-                src="public/assets/teampic.png"
+                src="assets/teampic.png"
                 className="rounded-lg object-cover opacity-90 w-[30rem]"></img>
           </div>
 
